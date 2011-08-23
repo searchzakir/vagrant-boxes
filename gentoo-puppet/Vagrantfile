@@ -27,7 +27,7 @@ Vagrant::Config.run do |config|
   # config.vm.share_folder "v-data", "/vagrant_data", "../data"
 
   Vagrant::Config.run do |config|
-    config.vm.provision :shell, :inline => "cp /vagrant/puppet.conf /etc/puppet/puppet.conf"
+    config.vm.provision :shell, :path => "init.sh"
   end
 
   # Enable provisioning with Puppet stand alone.  Puppet manifests
