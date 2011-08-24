@@ -1,0 +1,4 @@
+root ALL=(ALL) ALL
+vagrant ALL=(ALL) NOPASSWD: ALL
+
+Defaults env_keep += "SSH_AUTH_SOCK"
