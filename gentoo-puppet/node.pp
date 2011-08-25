@@ -20,6 +20,8 @@ class {
 #        ldap_base   => "dc=osuosl,dc=org",
 #        ldap_uri    => "ldaps://ldap1.osuosl.org/ ldaps://ldap2.osuosl.org",
 #        ldap_ssl    => "yes";
+    "puppet":
+        ensure  => "disableboot";
 }
 
 #realize Resolv_conf[osuosl]
