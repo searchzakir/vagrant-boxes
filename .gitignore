@@ -1,2 +1,5 @@
-gentoo-puppet/puppet/*
+gentoo-puppet/puppet*
+centos-puppet/puppet*
+debian-puppet/puppet*
+ubuntu-puppet/puppet*
 *.vagrant
