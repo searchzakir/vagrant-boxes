@@ -2,7 +2,7 @@ Exec { path => "/bin:/sbin:/usr/bin:/usr/sbin" }
 File { owner => root, group => root }
 
 import "common"
-include osuosl::gentoo::base
+include osuosl::gentoo::init
 
 class { 
     "puppet":

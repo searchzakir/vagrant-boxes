@@ -6,10 +6,13 @@ import "common"
 include osuosl
 #include osuosl::ssh
 include osuosl::postfix
-include osuosl::base_packages
+include osuosl::packages
 include firewall
 include cron
 #include grub::gentoo
+include nrpe
+include stunnel::server
+include syslog_ng::client
 
 class { 
     "ntp":
