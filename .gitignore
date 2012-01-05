@@ -3,3 +3,6 @@ centos-puppet/puppet*
 debian-puppet/puppet*
 ubuntu-puppet/puppet*
 *.vagrant
+*.box
+*.log
+*.iso
